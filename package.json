@@ -1,0 +1,39 @@
+{
+  "name": "ts-thrift",
+  "version": "1.0.0",
+  "description": "parse .thrift file to .d.ts",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npx jest",
+    "test-debug": "node --inspect-brk node_modules/.bin/jest --runInBand"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^24.9.0",
+    "@types/node": "^7.0.13",
+    "@typescript-eslint/eslint-plugin": "^2.6.1",
+    "@typescript-eslint/parser": "^2.6.1",
+    "eslint": "^6.6.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-jest": "^23.6.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-typescript": "^0.14.0",
+    "growl": "~>1.10.0",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.3.0",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.4"
+  },
+  "bin": {
+    "ts-thrift": "./bin/ts-thrift.js"
+  },
+  "dependencies": {
+    "@types/glob": "^7.1.1",
+    "glob": "^7.1.1",
+    "thrift-parser": "^0.4.2",
+    "yargs": "^7.1.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "extends": [
+        "standard",
+        "plugin:@typescript-eslint/recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "plugins": ["@typescript-eslint"],
+    "rules": {
+        "eqeqeq":"off",
+        "@typescript-eslint/explicit-function-return-type": "off",
+        "no-template-curly-in-string": "off",
+        "@typescript-eslint/no-var-requires":"off",
+        "@typescript-eslint/no-explicit-any":"off",
+        "@typescript-eslint/no-use-before-define": "off"
+    },
+    "env": {
+        "jest": true
+    }
+}
